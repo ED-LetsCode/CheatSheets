@@ -199,25 +199,24 @@ file.close()
 # Importing Modules
 import math
 
-print(math.sqrt(16))
-
 # Importing Modules with alias
 import math as m
 
 # Importing specific functions from a module
 from math import sqrt
 
-print(sqrt(16))
-
 # Importing specific functions from a module with alias
 from math import sqrt as s
-
-print(s(16))
 
 # Importing everything from a module
 from math import *
 
-print(sqrt(16))
+
+############## Comprensions ##############
+
+# List Comprehension
+numbers = [1, 2, 3, 4, 5]
+doubled_numbers = [number * 2 for number in numbers]
 
 
 ############## Exceptions ##############
